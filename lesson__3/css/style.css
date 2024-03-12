@@ -1,0 +1,45 @@
+/* Скидання стилів */
+@import url("reset.css");
+a{
+	color: blue;
+}
+h3{
+	font-size: 18px;
+	color: rgb(123, 49, 3);
+}
+.container{
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.title{
+	font-size: 36px;
+	color: rgba(211, 90, 10, 0.39);
+	margin-bottom: 25px;
+}
+
+.list{
+	font-size: 18px;
+	font-weight: 700;
+}
+.list-item{
+margin-bottom: 10px;
+}
+.link{
+color: rgba(81, 98, 103, 0.879);
+}
+.sub-title{
+	font-size: 18px;
+	font-weight: 600;
+	margin: 5px 0;
+	
+}
+.text{
+	color: rgb(26, 93, 5);
+	margin-bottom: 5px;
+}
+
+.text span{
+	color: darkred;
+}
