@@ -5,7 +5,7 @@
 /* Скидання стилів */
 @import url("reset.css");
 body{
-  font-family: 'Proxima Nova Rg', sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
 	font-weight: 400;
 }
 .container {
