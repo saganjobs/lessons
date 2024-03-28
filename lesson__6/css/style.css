@@ -155,7 +155,7 @@ body{
 .crovato_content{
   max-width: 1090px;
   margin: 0 auto ;
-  font-family: "Proxima Nova" sans-serif;
+  font-family: 'Proxima Nova';
   font-weight: 400;
   font-style: normal;
 }
