@@ -5,7 +5,7 @@
     font-family: "Proxima Nova" sans-serif ;
     src: url('../fonts/ProximaNova-LightIt.woff2');
     src: local('Proxima Nova Light'), local('ProximaNova-Light'),
-        url('ProximaNova-Light.woff2') format('woff2'),
+        url('ProximaNova-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
 }
