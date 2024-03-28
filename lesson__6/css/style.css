@@ -1,0 +1,223 @@
+/* Додавання шрифтів */
+
+@import url(fonts.css);
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+body{
+  font-family: 'Proxima Nova' sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
+}
+.container{
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 10px ;
+}
+ .explore-bg{
+  background: 
+  url(../img/number.png) no-repeat 74px -81px ,
+   url(../img/bg-png.png) no-repeat 0 0 / 100%  100%, #914CFF; 
+   background-size: cover;
+ }
+  .explore {
+
+    font-family: "Quicksand", sans-serif; 
+  
+ 
+  }
+  .explore__content {
+    max-width: 600px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    /* margin-right: 133px; */
+    color: #FFFFFF;
+  }
+  .explore__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  /* font-family: "Quicksand", sans-serif; */
+  margin-bottom: 24px;
+  }
+  .explore__text {
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  .btn__link {
+    width: 220px;
+    height: 50px;
+    background: url(../img/btn-icon.png) no-repeat 8% / 20px;;
+   background-color: #fff;
+   color: black;
+   padding: 13px 20px 12px 40px;
+   border-radius: 8px;
+   font-weight: 700;
+   line-height: 1.56;
+  box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.5) ;
+  }
+
+  .btn__link:hover{
+    background-color: #914CFF;
+    color: white;
+    transition: .3s;
+  }
+  .explore__img {
+    max-width: 547px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 133px;
+
+  }
+
+  /* colections */
+
+.colections-flower{
+  max-width: 1920px;
+  margin: 0 auto;
+  background: url(../img/flower-left.png) no-repeat 0 85% / 150px,
+  url(../img/flower-right.png) no-repeat 100% 45% / 150px #E5E5E5;
+  padding-top: 135px;
+  padding-bottom: 135px
+}
+
+  .colections{
+   
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* background: url(../img/flower-bg.png) no-repeat 100% 45% / 150px #E5E5E5;
+    padding-top: 135px;
+    padding-bottom: 135px */
+  }
+.colectios__content {
+  max-width: 730px;
+  display: inline-block;
+  margin-right: 98px;
+  margin-left: 300px;
+  /* margin-right: 300px; */
+}
+.colections__title {
+  font-size: 74px;
+  font-weight: 300;
+  line-height: 1.34;
+  margin-bottom: 52px;
+
+}
+.colections__text {
+  font-size: 30px;
+  line-height: 2.3;
+  text-transform: capitalize;
+
+  margin-bottom: 66px;
+}
+.link__shop {
+  background: url(../img/shop-icon.svg) no-repeat 24px 16px;
+  font-size: 29px;
+  line-height: 0.85;
+  padding: 19px 26px 19px 64px;
+  background-color: black;
+  color: white;
+  max-width: 223px;
+  max-height: 72px;
+ text-align: center;
+}
+
+.colections__img {
+ 
+  max-width: 340px;
+ display: inline-block;
+ vertical-align: top;
+ border: 2px solid #b6b7b7 ;
+ border-radius: 160px 0;
+ box-shadow: inset -1px 1px 9px 5px hsl(0deg 0% 0% / 25%);
+}
+
+
+.colections__img img{
+  width: 100%;
+  border-radius: 160px 0 ;
+  margin: -20px 18px 20px -18px;
+  
+}
+
+
+
+/* ============ CROVATO     ============== */'
+
+.container{
+
+}
+.crovato_content{
+  max-width: 1090px;
+  margin: 0 auto ;
+  font-family: 'Proxima Nova';
+  font-weight: normal;
+  font-style: normal;
+}
+.crovato__title{
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.crovato_img {
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  border-radius: 8px;
+  width: 100%;
+
+}
+.text_inner {
+  margin-top: 30px;
+  line-height: 1.87;
+}
+
+
+.crovato_sub-title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.list_item {
+  background-image: url(../img/mark.svg);
+  background-repeat: no-repeat;
+  vertical-align: top;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+.list_item p{
+  padding-left: 15px;
+  line-height: 1.87;
+
+}
+.text_wrap{
+  padding: 15px 0;
+}
+/* =============H o m e w o r k===================== */
+.content_footer{
+  background: url(../img/room.png) scroll ;
+}
+.title__home{
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  border: 2px solid hsl(94, 84%, 42%);
+  
+}
+.footer__text{
+  margin: 10px;
+  padding: 25px;
+  font-size: 18px;
+  border: dashed 4px rgba(14, 130, 105, 0.821);
+}
