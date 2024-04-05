@@ -1,0 +1,30 @@
+/* Додавання шрифтів */
+
+@import url(fonts.css);
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+body{
+  font-family: 'Proxima Nova';
+}
+.container{
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px ;
+}
+
+.lesson{
+  font-size: 36px;
+  line-height: 1.2;
+  color: yellowgreen;
+  background-color: #089cba;
+  text-align: center;
+  text-transform: uppercase;
+}
+.shop__phone{
+width: 23px;
+height: 23px;
+}
+
