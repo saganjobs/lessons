@@ -116,9 +116,7 @@ margin: 0 auto;
 display: inline-block;
 margin-right: 80px; 
 }
-.foter_link_item.{
 
-}
 /* ========icon ============ */
 .foter_link_item.tel::before{
   content: '';
