@@ -215,7 +215,10 @@ transition: all .7s;
   max-width: 1260px;
 }
 .footer__car{
-
+  background-image: url(../img/doroga.webp) ;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
   padding: 100px;
 }
 .car__block{
@@ -435,6 +438,12 @@ transition: all .7s;
    bottom: -97px;
   left: 41px;
   z-index: 2;
+  transform: rotate(360deg);
+}
+.car__block-circle:hover{
+  transform: rotate(-360deg);
+  transition: all 0.9s;
+  
 }
 .car__block-circle-line{
   width: 10px;
@@ -485,6 +494,10 @@ position: absolute;
 z-index: 15;
 bottom: -97px;
 right: 20px;
+}
+.car__block-circle-right:hover{
+transform: rotate(-360deg);
+transition: all 0.9s;
 }
 .car__block-front-line {
   width: 145px;
