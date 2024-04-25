@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<!-- Ukraine - uk -->
+<!-- Мова не визначена - zxx -->
+<!-- Коди мов https://html-css.co.ua/html/lang-kodu-mov/ -->
+<html lang="uk">
+	<head>
+		<!-- Кодування тексту -->
+		<meta charset="UTF-8">
+		<!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Підключення шрифтів -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<!-- Підключення другого шрифта Roboto -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<!--Варіант №3 !! Основний !! (підключення окремого файлу) -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Заголовок сторінки в браузері -->
+
+		<title>Lesson 13</title>
+	</head>
+	<body>
+		<div class="wrapper">
+		<header class="header">
+		<h1 class="lesson">Lesson 13</h1>
+			
+			<div class="header__container">
+				<div class="header__menu menu-info">
+					<div class="menu-info__item">
+						<ul class="menu-list">
+							<li class="menu-list__item">
+								<a class="menu-list__link" href="#" >Про нас</a>
+							</li>
+							<li class="menu-list__item">
+								<a class="menu-list__link" href="#">Оплата</a>
+							</li>
+							<li class="menu-list__item">
+								<a class="menu-list__link" href="#">Доствка та збір</a>
+							</li>
+							<li class="menu-list__item">
+								<a class="menu-list__link" href="#">Відгуки</a>
+							</li>
+							<li class="menu-list__item">
+								<a class="menu-list__link" href="#">Блог</a>
+							</li>
+							<li class="menu-list__item">
+								<a class="menu-list__link" href="#">Контакти</a>
+							</li>
+						</ul>
+					</div>
+					<div class="social-menu help">
+						<span class="help-text">Допомога та консультація</span>
+						<ul class="social-menu__list">
+							<li class="social-menu__item">
+								<a href="#" class="social-menu__link">
+									<img class="icon" src="img/whatsapp.svg" alt="іконка востапп">
+								</a>
+							</li>
+							<li class="social-menu__item">
+								<a href="#" class="social-menu__link">
+									<img class="icon" src="img/telegram.svg" alt="іконка телеграм">
+								</a>
+							</li>
+							<li class="social-menu__item">
+								<a href="#" class="social-menu__link">
+									<img class="icon" src="img/viber.svg" alt="іконка вайбер">
+								</a>
+						</ul>
+					
+					</div>
+					<div class="select-language">
+						<label for="language-select"></label>
+						<select  id="language-select">
+							<option value="UA">UA</option>
+							<option value="Pl">PL</option>
+							<option value="ENG">ENG</option>
+						</select>
+						<!-- <a href="#" class="select-language__link">
+							<span>UA</span>
+						</a> -->
+					</div>
+				</div>
+			
+							<!--Середня частина шапки -->
+
+				<div class="middle-header">
+					<a class="logo" href="#" >
+						<img class="logo__img" src="img/logo-header.svg" alt="логотип сайту">
+					</a>
+					<a href="#" class="button">
+						<img class="button-img" src="img/menu-catalog.svg" alt="меню каталог">
+					<span>Каталог</span>
+					</a>
+			
+					<form class="search">
+						<input type="text" placeholder="Пошук товарів">
+						<button class="search-btn" type="submit">
+							<img src="img/poisk.svg" alt="кнопка пошуку, лупа">
+						</button>
+					  </form>
+				
+					<!-- <div class="search">
+						<input type="text" placeholder="Пошук товарів">
+						<p class="search-text" >Пошук товарів</p> 
+						   <img  src="img/poisk.svg" alt="іконка пошуку">
+					</div> -->
+					<div class="call">
+						<a href="#" class="call__icon">
+							<img class="phone" src="img/icon-tel.svg" alt="іконка телефону">
+						</a>
+						<div class="call__inner">
+							<p class="call__text">Щодня з 9:00 до 18:00</p>
+							<a class="call__select-link" href="tel:067-929-45-45">067-929-45-45</a>
+						</div>
+							<a class="call__arrow" href="#">
+								<img class="call__arrow-img" src="img/arrow.svg" alt="стрілка">
+							</a>
+						</div>
+					<div class="shop-icon">
+						<a href="#" class="shop-icon__link">
+							<img class="obrane-icon" src="img/obrane.webp" alt="іконка обране">
+						</a>
+						<a href="#" class="shop-icon__link">
+							<img class="korzina-icon" src="img/korzina.webp" alt="іконка корзини">
+						</a>
+					</div>
+				</div>
+					<!-- Нижня частина шапки -->
+				<div class="bottom-header ">
+						<ul class="header-bottom__nav-icon nav">
+							<li class="nav__item nav__item--icon nav__item--promo">
+								<a class="nav__link" href="#">
+									<img class="nav-img" src="img/star.svg" alt="Акції">
+									<p>Акції</p></a>	
+							</li>
+							<li class="nav__item nav__item--icon nav__item--promo">
+								<a class="nav__link" href="#">
+									<img class="nav-img" src="img/sale.svg" alt="розпродаж">
+									<p>Розпродаж</p></a>	
+							</li>
+							<li class="nav__item nav__item--icon nav__item--promo">
+								<a class="nav__link" href="#">
+									<img class="nav-img" src="img/credit.svg" alt="кредит">
+									<p>Купити в кредит</p>
+								</a>	
+							</li>
+						</ul>
+						<ul class="header-bottom__nav nav">
+							<li class="nav__item">
+								<a class="nav__link" href="#" >
+									Дитяча
+								</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#" >
+									Кухня
+								</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#" >
+									Ванна
+								</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#" >
+									Спальня	
+								</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#" >
+									Передпокій
+								</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#" >
+									Вітальня	
+							</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#" >
+									Офіс
+								</a>
+						</li>
+						</ul>
+				</div>
+				
+			</div>
+		</div>
+		</header>
+	<main class="main" >
+		 <div class="container-main">
+			<div class="categories ">
+			<h2 class="categories__title title">
+				Популярні категорії
+			</h2>
+			<div class="categories__box">
+				<div class="categories__items">
+					<div class="categories__item item-categories">
+						<div class="item-categories__content">
+							<h3 class="item-categories__name">Ліжка</h3>
+							<span>54</span>
+							<a class="item-categories__link" href="#">
+								<img class="item-categories__img" src="img/img.webp" alt="ліжко">
+							</a>
+						</div>
+					</div>
+					<!-- 2 карточка -->
+					<div class="categories__item item-categories">
+						<div class="item-categories__content">
+							<h3 class="item-categories__name">Матраци</h3>
+							<span>30</span>
+							<a class="item-categories__link" href="#">
+								<img class="item-categories__img" src="img/img1.webp" alt="Матрац">
+							</a>
+						</div>
+					</div>
+						<!-- 3 карточка -->
+						<div class="categories__item item-categories">
+							<div class="item-categories__content">
+								<h3 class="item-categories__name">М'які меблі</h3>
+								<span>196</span>
+								<a class="item-categories__link" href="#">
+									<img class="item-categories__img" src="img/img2.webp" alt="М'які меблі">
+								</a>
+							</div>
+						</div>
+						<!-- 4 карточка -->
+						<div class="categories__item item-categories">
+							<div class="item-categories__content">
+								<h3 class="item-categories__name">Шафи</h3>
+								<span>79</span>
+								<a class="item-categories__link" href="#">
+									<img class="item-categories__img" src="img/img3.webp" alt="Шафи">
+								</a>
+							</div>
+						</div>
+						<!-- 5 карточка -->
+						<div class="categories__item item-categories">
+							<div class="item-categories__content">
+								<h3 class="item-categories__name">Комоди</h3>
+								<span>54</span>
+								<a class="item-categories__link" href="#">
+									<img class="item-categories__img" src="img/img4.webp" alt="Комоди">
+								</a>
+							</div>
+						</div>
+						<!-- 6 карточка -->
+						<div class="categories__item item-categories">
+							<div class="item-categories__content">
+								<h3 class="item-categories__name">Тумби</h3>
+								<span>64</span>
+								<a class="item-categories__link" href="#">
+									<img class="item-categories__img" src="img/img5.webp" alt="Тумби">
+								</a>
+							</div>
+						</div>
+						<!-- 7 карточка -->
+						<div class="categories__item item-categories">
+							<div class="item-categories__content">
+								<h3 class="item-categories__name">Столи</h3>
+								<span>35</span>
+								<a class="item-categories__link" href="#">
+									<img class="item-categories__img" src="img/img6.webp" alt="Столи">
+								</a>
+							</div>
+						</div>
+						<!-- 8 карточка -->
+						<div class="categories__item item-categories">
+							<div class="item-categories__content">
+								<h3 class="item-categories__name">Стільці</h3>
+								<span>98</span>
+								<a class="item-categories__link" href="#">
+									<img class="item-categories__img" src="img/img7.webp" alt="Стільці">
+								</a>
+							</div>
+						</div>
+						<!-- 9 карточка -->
+						<div class="categories__item item-categories">
+							<div class="item-categories__content">
+								<h3 class="item-categories__name">Меблеві стіни</h3>
+								<span>24</span>
+								<a class="item-categories__link" href="#">
+									<img class="item-categories__img" src="img/img8.webp" alt="Меблеві стіни">
+								</a>
+							</div>
+						</div>
+						<!-- 10 карточка -->
+						<div class="categories__item item-categories">
+							<div class="item-categories__content">
+								<h3 class="item-categories__name">Кухні</h3>
+								<span>30</span>
+								<a class="item-categories__link" href="#">
+									<img class="item-categories__img" src="img/img9.webp" alt="Кухні">
+								</a>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ===============Найпопулярніші товари=======================-->
+
+		<div class="page-product">
+		<div class="popluar-produrts product">
+			
+			<h2 class=" product__title title  title--link">		
+				Найпопулярніші товари
+			
+			<a href="#" class="product__link">
+				<span class="product__text">
+					Дивитись всі
+				</span>
+			</a>
+		</h2>
+		</div>
+			<div class="product__box">
+				<div class="product__items">
+					<div class="product__item item-product">
+						<div class="item-product__card card">
+							<div class="card__img">
+								<a href="#" class="card__link">
+									<img class="card__link-img" src="img/products/img10.webp" alt="ліжко спарта">
+								</a>
+							</div>
+							<div class="card__size">
+								Розмір: 61 x 184 x 2130 мм
+							</div>
+							<a href="#">
+							<h3 class="card__name">
+								Ліжко Спарта / Sparta з підйомним механізмом
+							</h3>
+						</a>
+							<div class="card__avilible">
+								<span>В наявності</span>
+							</div>
+							<div class="card__buy">
+								<div class="card__buy-price card__buy-price--sale">
+									<span>25 400грн</span>
+									15 400грн
+								</div>
+								<div class="card__icon">
+									<a class="card__icon-link" href="#"> 
+										<img  src="img/obrane.svg" alt="обране">
+									</a>
+									<a class="card__icon-link" href="#"> 
+										<img  src="img/korzina.svg" alt="корзина">
+									</a>
+									
+								</div>
+							</div>
+						</div>
+
+						<!-- картка 2 -->
+						<div class="item-product__card card">
+							<div class="card__img">
+								<a href="#" class="card__link">
+									<img class="card__link-img" src="img/products/img11.webp" alt="Ліжко Аргон з підйомним механізмом">
+								</a>
+							</div>
+							<div class="card__size">
+								Розмір: 61 x 184 x 2130 мм
+							</div>
+							<a href="#">
+								<h3 class="card__name">
+								Ліжко Аргон з підйомним механізмом
+							</h3>
+							</a>
+							<div class="card__avilible">
+								<span>В наявності</span>
+							</div>
+							<div class="card__buy">
+								<div class="card__buy-price card__buy-price--sale">
+									16 400грн
+								</div>
+								<div class="card__icon">
+									<a class="card__icon-link" href="#"> 
+										<img  src="img/obrane.svg" alt="обране">
+									</a>
+									<a class="card__icon-link" href="#"> 
+										<img  src="img/korzina.svg" alt="корзина">
+									</a>
+								</div>
+							</div>
+						</div>
+							<!-- картка 3 -->
+							<div class="item-product__card card">
+								<div class="card__img">
+									<a href="#" class="card__link">
+										<img class="card__link-img" src="img/products/img12.webp" alt="Ліжко Престиж з підйомним механізмом">
+									</a>
+								</div>
+								<div class="card__size">
+									Розмір: 61 x 184 x 2130 мм
+								</div>
+								<a href="#">
+								<h3 class="card__name">
+									Ліжко Престиж з підйомним механізмом
+								</h3>
+								</a>
+								<div class="card__avilible">
+									<span>В наявності</span>
+								</div>
+								<div class="card__buy">
+									<div class="card__buy-price card__buy-price--sale">
+										14 969 грн
+									</div>
+									<div class="card__icon">
+										<a class="card__icon-link" href="#"> 
+											<img  src="img/obrane.svg" alt="обране">
+										</a>
+										<a class="card__icon-link" href="#"> 
+											<img  src="img/korzina.svg" alt="корзина">
+										</a>
+									</div>
+								</div>
+							</div>
+								<!-- картка 4 -->
+								<div class="item-product__card card">
+									<div class="card__img">
+										<a href="#" class="card__link">
+											<img class="card__link-img" src="img/products/img13.webp" alt="Диван Токіо-2">
+										</a>
+									</div>
+									<div class="card__size">
+										Розмір: 61 x 184 x 2130 мм
+									</div>
+									<a href="">
+									<h3 class="card__name">
+										Диван Токіо-2
+									</h3>
+									</a>
+									<div class="card__avilible">
+										<span>В наявності</span>
+									</div>
+									<div class="card__buy">
+										<div class="card__buy-price card__buy-price--sale">
+											13 211грн.
+										</div>
+										<div class="card__icon">
+											<a class="card__icon-link" href="#"> 
+												<img  src="img/obrane.svg" alt="обране">
+											</a>
+											<a class="card__icon-link" href="#"> 
+												<img  src="img/korzina.svg" alt="корзина">
+											</a>
+										</div>
+									</div>
+								</div>
+								<!-- картка 5 -->
+								<div class="item-product__card card">
+									<div class="card__img">
+										<a href="#" class="card__link">
+											<img class="card__link-img" src="img/products/img14.webp" alt="Матрац">
+										</a>
+									</div>
+									<div class="card__size">
+										Розмір: 61 x 184 x 2130 мм
+									</div>
+									<a href="#">
+									<h3 class="card__name">
+										Матрац Largo SLIM / Ларго Слім
+									</h3>
+									</a>
+									<div class="card__avilible">
+										<span>В наявності</span>
+									</div>
+									<div class="card__buy">
+										<div class="card__buy-price card__buy-price--sale">
+											<span>3 122грн.</span>
+											2 810 грн.
+										</div>
+										<div class="card__icon">
+											<a class="card__icon-link" href="#"> 
+												<img  src="img/obrane.svg" alt="обране">
+											</a>
+											<a class="card__icon-link" href="#"> 
+												<img  src="img/korzina.svg" alt="корзина">
+											</a>
+										</div>
+									</div>
+								</div>
+										<div class="item-product__card card">
+											<div class="card__img">
+												<a href="#" class="card__link">
+													<img class="card__link-img" src="img/products/img15.webp" alt="матрац">
+												</a>
+											</div>
+											<div class="card__size">
+												Розмір: 61 x 184 x 2130 мм
+											</div>
+											<a href="#">
+											<h3 class="card__name">
+												Матрац ARGENTUM AMALTEA / Аргентум Амалті
+											</h3>
+											</a>
+											<div class="card__avilible">
+												<span>В наявності</span>
+											</div>
+											<div class="card__buy">
+												<div class="card__buy-price card__buy-price--sale">
+													<span>5 966грн.</span>
+													5 071 грн.
+												</div>
+												<div class="card__icon">
+													<a class="card__icon-link" href="#"> 
+														<img  src="img/obrane.svg" alt="обране">
+													</a>
+													<a class="card__icon-link" href="#"> 
+														<img  src="img/korzina.svg" alt="корзина">
+													</a>
+												</div>
+											</div>
+										</div>
+						<!-- картка 7 -->
+						<div class="item-product__card card">
+							<div class="card__img">
+								<a href="#" class="card__link">
+									<img class="card__link-img" src="img/products/img16.webp" alt="диван">
+								</a>
+							</div>
+							<div class="card__size">
+								Розмір: 61 x 184 x 2130 мм
+							</div>
+							<a href="">
+							<h3 class="card__name">
+								Диван Браво
+							</h3>
+							</a>
+							<div class="card__avilible">
+								<span>В наявності</span>
+							</div>
+							<div class="card__buy">
+								<div class="card__buy-price card__buy-price--sale">
+									10 008грн.
+								</div>
+								<div class="card__icon">
+									<a class="card__icon-link" href="#"> 
+										<img  src="img/obrane.svg" alt="обране">
+									</a>
+									<a class="card__icon-link" href="#"> 
+										<img  src="img/korzina.svg" alt="корзина">
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- картка 8 -->
+						<div class="item-product__card card">
+							<div class="card__img">
+								<a href="#" class="card__link">
+									<img class="card__link-img" src="img/products/img16.webp" alt="ліжко">
+								</a>
+							</div>
+							<div class="card__size">
+								Розмір: 61 x 184 x 2130 мм
+							</div>
+							<a href="">
+							<h3 class="card__name">
+								Ліжко МК-5
+							</h3>
+							</a>
+							<div class="card__avilible">
+								<span>В наявності</span>
+							</div>
+							<div class="card__buy">
+								<div class="card__buy-price card__buy-price--sale">
+									8775 грн.
+								</div>
+								<div class="card__icon">
+									<a class="card__icon-link" href="#"> 
+										<img  src="img/obrane.svg" alt="обране">
+									</a>
+									<a class="card__icon-link" href="#"> 
+										<img  src="img/korzina.svg" alt="корзина">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	</main>
+
+	<footer class="footer">
+			<div class="container-footer">
+				<div class="share-box share">
+					<h2 class="share__title title  title--link">		
+						Найпопулярніші товари
+					
+					<a href="#" class="product__link">
+						<span class="product__text">
+							Дивитись всі
+						</span>
+					</a>
+				
+				</h2>
+				<div class="share-icon">
+					<a class="arrow-left" href="#">
+						<img src="img/arrow-left.svg" alt="стрілка вліво ">
+					</a>
+					<a class="arrow-right" href="#">
+						<img src="img/arrow-right.svg" alt="стрілка вправо">
+					</a>
+				</div>
+				</div>
+				<div class="share-content content">
+					<ul class="content__list">
+						<!-- li.content__list-item*3>a.link[href="#"] -->
+						<li class="content__list-item">
+							<a href="#" class="link">
+								<img src="img/akciya-1.jpeg" alt="Акція">
+							</a></li>
+						<li class="content__list-item">
+							<a href="#" class="link">
+								<img src="img/akciya-2.jpeg" alt="Акція">
+							</a></li>
+						<li class="content__list-item">
+							<a href="#" class="link">
+								<img src="img/akciya-3.jpeg" alt="Акція">
+							</a></li>
+					</ul>
+				</div>
+			</div>
+		
+	</footer>
+</div>
+	</body>
+</html>

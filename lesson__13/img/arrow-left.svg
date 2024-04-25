@@ -1,0 +1,14 @@
+<svg width="60.000000" height="60.000000" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip79_562">
+			<rect id="arrow-left" width="60.000000" height="60.000000" transform="matrix(-1 0 0 1 60 0)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip79_562)">
+		<circle id="Ellipse 3" r="30.000000" transform="matrix(-1 1 0 0 30 30)" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<path id="Vector" d="M22.97 28.89L31.43 20.44C31.57 20.3 31.74 20.19 31.92 20.11C32.1 20.03 32.3 20 32.5 20C32.7 20 32.89 20.03 33.07 20.11C33.26 20.19 33.42 20.3 33.56 20.44C33.84 20.72 34 21.1 34 21.49C34 21.89 33.84 22.27 33.56 22.55L26.15 30.03L33.56 37.44C33.84 37.72 34 38.1 34 38.49C34 38.89 33.84 39.27 33.56 39.55C33.42 39.69 33.26 39.8 33.07 39.88C32.89 39.95 32.7 39.99 32.5 40C32.3 39.99 32.1 39.95 31.92 39.88C31.74 39.8 31.57 39.69 31.43 39.55L22.97 31.09C22.81 30.95 22.69 30.78 22.61 30.59C22.53 30.4 22.48 30.2 22.48 29.99C22.48 29.79 22.53 29.58 22.61 29.39C22.69 29.2 22.81 29.03 22.97 28.89Z" fill="#FFBC57" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
