@@ -1,0 +1,478 @@
+/* Додавання шрифтів */
+
+@import url(fonts.css);
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+body{
+  font-family: 'Proxima Nova';
+}
+
+/* Мінімальна висота відкритого вікна, щоб займало цілу висоту вікна  */
+.wraper{
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-weight: 700;
+  font-size: 48px;
+  background-color: #582c2c;
+  box-shadow: 7px 4px 2px #3ec619;
+  text-align: center;
+  color: #a29122;
+  padding: 5px 0;
+}
+[class*="__container"]{
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 760px;
+}
+
+.order{
+  margin-bottom: 30px;
+}
+.order_info {
+  padding-top: 30px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.order__title{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.form__name{
+display: flex;
+flex-direction: column;
+column-gap: 20px;
+row-gap: 20px;
+}
+.form-input{
+  padding-left: 10px;
+  width: 325px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #D1D5D5;
+  color: #050505;
+  font-size: 16px;
+  
+}
+.form-input::placeholder{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #535353;
+ 
+}
+.form-input:hover{
+  border-color: #FFBC57;
+}
+.form__communication{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.checkbox__label{
+ 
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.checkbox__input{
+position: absolute;
+top: 0;
+left: 0;
+width:  0;
+height: 0;
+opacity: 0;
+
+/* інпут + спан */
+/* .checkbox__input:focus-visible + .choise__delivery-text{
+  outline: 1px solid #000;
+  outline-offset: 3px;
+}  */
+}
+.checkbox__input:focus-visible + .choise__delivery-text{
+  outline: 1px solid #000;
+  outline-offset: 3px;
+}
+
+.checkbox__input:checked + .checkbox__label-text::before{
+  background-color: #FFBC57;
+}
+
+.checkbox__label-text{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ gap: 10px;
+
+}
+.checkbox__label-text::before{
+  transition: all 0.3s;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 2px solid #D1D5D5;
+  flex-shrink: 0;
+  cursor: pointer;
+ 
+}
+.line{
+  width: 100%;
+  height: 5px;
+  background-color: #F8F8F8;
+  
+}
+
+
+/* ===========ДОСТАВКА ТОВАРУ============ */
+
+.delivery__info {
+padding: 30px 30px 0;
+}
+.delivery__title {
+display: flex;
+align-items: center;
+gap: 15px;
+margin-bottom: 30px;
+}
+.title {
+
+}
+
+.delivery__buttons {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 25px;
+  flex-wrap: wrap;
+  position: relative;
+}
+.delivery__buttons> *:not(:last-child) {
+  margin-bottom: 30px;
+}
+.delivery__button {
+ 
+  position: relative;
+  cursor: pointer;
+ 
+}
+.delivery__button:hover{
+  transform: scale(1.05);
+}
+/* [type="radio"] {
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  opacity: 0;
+} */
+.delivery-button__control {
+  position: absolute;
+top: 0;
+left: 0;
+width:  0;
+height: 0;
+opacity: 0;
+ 
+}
+.delivery-button__label {
+  height: 142px;
+  width: 210px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+  border: 3px solid #F8F8F8;
+  border-radius: 8px;
+  transition: transform .4s;
+}
+.delivery-button__control:checked + .delivery-button__label {
+  border: 3px solid #FFBC57;
+}
+
+.delivery__button-img img{
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 40px;
+  height: 40px;
+}
+.delivery__button-img--magazin {
+}
+.delivery__text {
+  padding-top: 10px;
+  width: 170px;
+ color: #2B2929;
+ font-size: 16px;
+ line-height: 1.87;
+}
+.delivery__price {
+  font-size: 15px;
+line-height: 1.46;
+font-weight: 400;
+color: #535353;
+}
+.delivery__button-img--nova-poshta {
+}
+.delivery__button-img--courier {
+}
+.choise__delivery  {
+   width: 210px;
+  height: 142px;
+  border-radius: 8px;
+  border: 3px solid #F8F8F8;
+
+} 
+ 
+
+
+
+.delivery__location {
+  background-color: #F8F8F8;
+  border-radius: 8px;
+}
+.location {
+  
+  margin-bottom: 30px;
+}
+.location__inner {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 0 20px;
+}
+
+.location__inner-img {
+  width: 40px;
+  height: 40px;
+
+}
+.location__inner-text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding:20px 0;
+}
+.text {
+ 
+}
+.text__day {
+  color: #2B2929;
+
+}
+.text__location {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #2B2929;
+}
+.button__location {
+  background-color: #FFBC57;
+  border-radius: 8px;
+  padding: 13px 20px;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #fff;
+  
+}
+
+/* .location__btn::before{
+  content: "";
+background: url(../img/map.svg) 0 0;
+background-repeat: no-repeat;
+width: 24px;
+height: 24px;
+/* position: relative;
+top: 6x;
+left: 0; 
+padding-left: 20px;
+padding-top: 13px;
+} */
+
+
+.button__location-img{
+width: 24px;
+height: 24px;
+
+}
+
+/* нижня частина */
+
+.payment__info{
+  padding: 30px 30px 0;
+  
+  
+}
+.payment__title{
+  display: flex;
+  align-items: center;
+  gap: 15px ;
+  margin-bottom: 30px;
+  }
+.payment__title-img{
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  
+}
+.payment__options {
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+ 
+}
+.options-payment {
+}
+.options-payment__label {
+  display: flex;
+  align-items: center;
+  position: relative;
+   cursor: pointer;
+
+}
+.options-payment__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+.options-payment__text {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.41;
+}
+
+.options-payment__text::before {
+  content: "";
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #B1B1B1;
+	transition: background-color 0.3s;
+
+  
+}
+.options-payment__text:hover:before{
+  border-color:#FFBC57;
+}
+.options-payment__text::after{
+background: url(../img/сhecked.svg);
+content: "";
+width: 16px;
+height: 16px;
+top: 50%;
+left: 0;
+opacity: 0;
+transition: opacity 0.3s ease-in-out;
+
+}
+.options-payment__input:checked + .options-payment__text::before {
+
+background: url(../img/сhecked.svg) center no-repeat;
+width: 24px;
+height: 24px;
+opacity: 1;
+}
+
+
+.coments {
+}
+.coments__title {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.coments__title > img{
+  width: 60px;
+  height: 60px;
+}
+.title {
+}
+
+.coments__content {
+  padding:0 30px;
+}
+.coments {
+}
+.coments__textarea::placeholder{
+  color: #535353;
+  opacity: 0.4;
+  font-size: 14px;
+  padding-top:10px;
+  padding-left: 20px;
+}
+.coments__textarea {
+  
+  border: 1px solid #535353;
+  border-radius: 8px;
+  min-height: 150px;
+  padding-top:10px;
+  padding-left: 20px;
+  color: #000;
+  font-size: 16px;
+  resize: vertical;
+  margin-bottom: 20px;
+}
+
+.coments__btn {
+  text-transform: uppercase;
+  width: 100%;
+  padding: 13px 20px;
+  background-color: #FFBC57;
+  border-radius: 8px;
+  font-size: 19px;
+  font-weight: 600;
+  color: #fff;
+  background-color .2s ease-in;
+}
